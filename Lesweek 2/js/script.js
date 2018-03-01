@@ -16,15 +16,7 @@ let checkEvenOrOdd = function () {
 
 document.getElementById('checkInput').addEventListener('click', checkEvenOrOdd);
 
-//oefeing 2: Datatypes
-
-// 1-10 met arrayLength
-//let numbers = [1,2,3,4,5,6,7,8,9,10]
-//let i;
-
-//for(let i = 0; i <= 10; ++i) {
-  //console.log(i);
-//}
+//oefening 2: Datatypes
 
 //oefening 3: Concatenatie
 let scores = [50, 19, 45];
@@ -34,3 +26,28 @@ let i;
 for (i = 0; i < arrayLength; ++i) {
   console.log(scores[i]);
 }
+
+//oefening 4: Proclamatietool
+//let text;
+//let results = document.getElementById("myInput").value;
+
+//switch(expression) {
+  //case n:
+      //code block
+      //break;
+  //case n:
+      //code block
+      //break;
+  //default:
+      //code block
+//}
+
+//oefening 5: Pluralizer
+
+let animal1 = dog;
+
+
+pluralizer('dog', 3);
+pluralizer('cat', 6);
+pluralizer('parrot', 8);
+
